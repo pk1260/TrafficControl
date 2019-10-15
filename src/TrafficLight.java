@@ -73,4 +73,6 @@ public class TrafficLight {
     public void setMainCollor(int mainCollor) {
         this.MainCollor = mainCollor;
     }
+
+    // dit was het
 }

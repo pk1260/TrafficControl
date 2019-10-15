@@ -13,7 +13,7 @@ public class TrafficLightTest {
     }
 
     @Test
-    public void showTrafficLightRedColor() {
+    public void showColor_isRedColor_redReturned() {
         String result = SUT.showColor(1);
         assertThat(result, is("Red"));
     }
